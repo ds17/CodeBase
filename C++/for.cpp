@@ -6,14 +6,18 @@ using namespace std;
 int sum = 0;
 int main(){
 
-    //for循环
+//for循环
+    //用于循环次数已知的循环
     for (int val=1; val <= 10; ++val){
         sum += val;
     }
 
-    //范围for循环
-    // for (declaration : expression)
-    //     statement
+//范围for循环
+    //用于：遍历容器中的元素
+    /*
+    for (declaration : expression)
+        statement
+    */
     string s ("hello world!!!");
     for (auto each_char : s){
         cout << each_char << endl;
